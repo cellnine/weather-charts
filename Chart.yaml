@@ -1,0 +1,19 @@
+apiVersion: v2
+name: weather-diary 	
+description: A Helm chart for the weather diary application in Kubernetes
+
+type: application
+
+version: 0.1.0
+
+dependencies:
+ - name: postgresql
+   version: 16.0.0
+   repository: https://charts.bitnami.com/bitnami
+   
+ # - name: traefik
+ #   version: 33.0.0
+ #   repository: https://traefik.github.io/charts
+   
+
+appVersion: "0.2"
